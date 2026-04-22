@@ -27,7 +27,7 @@ class Plant
 
 class Interpreter
 {
-    private readonly Dictionary<string, Plant> memory = new();
+    private Dictionary<string, Plant> memory = new();
     private readonly List<string> program;
     private int pc = 0;
 
@@ -46,9 +46,7 @@ class Interpreter
 
     private void Execute(string line)
     {
-        if (string.IsNullOrWhiteSpace(line)) return;
-
-        var parts = line.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+        var parts = line.Split(' ');
         var cmd = parts[0];
 
         switch (cmd)
@@ -170,7 +168,7 @@ class Interpreter
                 {
                     var src = Get(parts[1]);
                     var dst = Get(parts[2]);
-                    dst.IntValue = src.StringValue?.Length ?? 0;
+                    dst.IntValue = src.StringValue.Length;
                     break;
                 }
 
