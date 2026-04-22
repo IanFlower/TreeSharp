@@ -15,14 +15,17 @@ Water loopStart
 Water loopStart
 Water loopStart
 Water loopStart
+Water loopStart
 Graft loopEnd loopStart
 Water loopEnd
 Water loopEnd
 Inscribe a
 Inscribe b
 Graft counter a
-Graft result b
+Branch counter zero cond
+Jump cond loopStart loopEnd
+Graft result b // loopStart
 Prune counter
 Branch counter zero cond
 Jump cond loopStart loopEnd
-MakeMathPaper result
+MakeMathPaper result // loopEnd
