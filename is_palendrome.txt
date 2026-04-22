@@ -1,0 +1,93 @@
+Plant input Full
+Plant temp Full
+Plant tempA Full
+Plant tempB Full
+Plant counter Indirect
+Plant length Full
+Plant lengthToEnd Full
+Plant result Full
+Plant false Full
+Plant true Indirect
+Plant cond Full
+Plant continue Full
+Plant continue0 Partial
+Plant continue1 Partial
+Plant continue2 Partial
+Plant exit Full
+Plant falseExit Full
+Plant trueExit Partial
+Plant loopStart Full
+Plant loopExit Full
+Plant innerLoopStart Full
+Plant innerLoopEnd Partial
+Water true
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Graft continue loopStart
+Water continue
+Graft continue0 continue
+Water continue0
+Water continue0
+Graft continue1 continue0
+Water continue1
+Graft innerLoopStart continue1
+Water innerLoopStart
+Graft innerLoopEnd innerLoopStart
+Water innerLoopEnd
+Water innerLoopEnd
+Graft continue2 innerLoopEnd
+Water continue2
+Graft falseExit continue2
+Water falseExit
+Graft trueExit falseExit
+Water trueExit
+Graft exit trueExit
+Water exit
+Inscribe input
+Measure input lengthToEnd
+Peel input tempA 			// loopStart
+Branch tempA true cond 		// Check if we have finished peeling the string
+Jump cond continue trueExit trueExit 
+Measure input length 		// continue
+Prune lengthToEnd
+Branch lengthToEnd false cond
+Jump cond continue0 trueExit trueExit
+Branch length false cond 	// continue0
+Jump cond continue1 trueExit
+Chop temp 					// continue1
+Chop counter
+Graft temp input
+Peel temp tempB 			// innerLoopStart
+Water counter
+Branch lengthToEnd counter cond
+Jump cond innerLoopStart innerLoopEnd
+Branch tempA tempB cond 	// innerLoopEnd
+Jump cond falseExit continue2 falseExit
+Prune lengthToEnd 			// continue2
+Branch lengthToEnd false cond
+Jump cond loopStart trueExit trueExit
+MakeMathPaper false 		// false exit
+Jump true exit
+MakeMathPaper true 			// true exit
+Jump true exit

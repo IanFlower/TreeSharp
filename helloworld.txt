@@ -1,0 +1,124 @@
+Plant H Full
+Plant e Indirect
+Plant l Indirect
+Plant o Indirect
+Plant space Partial
+Plant w Partial
+Plant r Full
+Plant d Full
+Plant ex Indirect
+
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+Water H
+
+Graft e H
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+Water e
+
+Graft l e
+Water l
+Water l
+Water l
+Water l
+Water l
+Water l
+Water l 
+
+Graft o l
+Water o
+Water o
+Water o
+
+Water space
+Water space
+Water space
+Water space
+Water space
+Water space
+Water space
+Water space
+Water space
+Water space
+Water space
+Water space
+Water space
+Water space
+Water space
+Water space
+
+Graft w o
+Water w
+Water w
+Water w
+Water w
+
+Graft r o
+Water r
+
+Graft d e
+Prune d
+
+Graft ex space
+Water ex
+
+MakePaper H
+MakePaper e
+MakePaper l
+MakePaper l
+MakePaper o
+MakePaper space
+MakePaper w
+MakePaper o
+MakePaper r
+MakePaper l
+MakePaper d
+MakePaper ex

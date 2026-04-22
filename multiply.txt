@@ -1,0 +1,28 @@
+Plant temp Full
+Plant a Full
+Plant b Full
+Plant result Full
+Plant counter Full
+Plant cond Full
+Plant zero Full
+Plant loopStart Full
+Plant loopEnd Partial
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Graft loopEnd loopStart
+Water loopEnd
+Water loopEnd
+Inscribe a
+Inscribe b
+Graft counter a
+Graft result b
+Prune counter
+Branch counter zero cond
+Jump cond loopStart loopEnd
+MakeMathPaper result

@@ -1,0 +1,33 @@
+Plant evenCounter Partial
+Plant input Full
+Plant cond Full
+Plant true Indirect
+Plant false Full
+Plant loopStart Full
+Plant falseExit Full
+Plant trueExit Partial
+Plant exit Full
+Water true
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Graft falseExit loopStart
+Water falseExit
+Graft trueExit falseExit
+Water trueExit
+Graft exit trueExit
+Water exit
+Inscribe input
+Water evenCounter // loopStart
+Branch input evenCounter cond
+Jump cond loopStart trueExit falseExit
+MakeMathPaper false 		// falseExit
+Jump true exit
+MakeMathPaper true 			// trueExit
+Jump true exit

@@ -1,0 +1,24 @@
+Plant charInput Full
+Plant intInput Full
+Plant result Full
+Plant cond Full
+Plant zero Full
+Plant loopStart Full
+Plant loopExit Partial
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Graft loopExit loopStart
+Water loopExit
+Water loopExit
+Inscribe charInput
+Inscribe intInput
+Peel charInput result
+MakePaper result
+Prune intInput
+Branch intInput zero cond
+Jump cond loopStart loopExit

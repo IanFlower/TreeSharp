@@ -1,0 +1,43 @@
+Plant input Full
+Plant temp Full
+Plant counter Indirect
+Plant length Full
+Plant result Full
+Plant zero Full
+Plant cond Full
+Plant loopStart Full
+Plant loopExit Full
+Plant innerLoopStart Partial
+Plant innerLoopEnd Partial
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Graft innerLoopStart loopStart
+Water innerLoopStart
+Graft innerLoopEnd innerLoopStart
+Water innerLoopEnd
+Water innerLoopEnd
+Graft loopExit innerLoopEnd
+Water loopExit
+Water loopExit
+Inscribe input
+Measure input length
+Graft temp input // loopStart
+Chop counter
+Peel temp result // innerLoopStart
+Water counter
+Branch length counter cond
+Jump cond innerLoopStart innerLoopEnd
+MakePaper result // innerLoopEnd
+Prune length
+Chop temp
+Branch length zero cond
+Jump cond loopStart loopExit

@@ -1,0 +1,26 @@
+Plant input Full
+Plant char Full
+Plant cond Full
+Plant counter Indirect
+Plant length Indirect
+Plant loopStart Full
+Plant loopExit Full
+Water input
+Water input
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Water loopStart
+Graft loopExit loopStart
+Water loopExit
+Inscribe input
+Measure input length
+Water loopExit
+Peel input char
+MakePaper char
+Water counter
+Branch length counter cond
+Jump cond loopStart loopExit loopExit
